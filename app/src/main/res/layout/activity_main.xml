@@ -38,4 +38,26 @@
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="357dp"
+        android:layout_height="379dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/randomizeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Randomize"
+        app:layout_constraintEnd_toEndOf="@+id/gridView"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/gridView"
+        app:layout_constraintTop_toBottomOf="@+id/gridView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
